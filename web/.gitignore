@@ -1,0 +1,26 @@
+# Next.js
+.next/
+out/
+node_modules/
+
+# Build artifacts
+/.next/
+/out/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# package-lock
+package-lock.json
+cypress.env.json
+
+# # Removed env
+# /env/
+# /.env
+# .env

@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* Hide the scrollbar, but still allow scrolling */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* Adjust the color as needed */
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 0px;
+    /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+    /* Adjust the background color as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* Adjust the thumb color as needed */
+}
