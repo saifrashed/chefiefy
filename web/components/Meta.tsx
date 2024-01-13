@@ -15,7 +15,7 @@ const Meta: React.FC<MetaProps> = ({ title }) => {
     return (
         <Head>
             <title>{title}</title>
-            <meta name="description" content="Effortlessly extract and share Tailwind elements from existing websites, enhancing your design workflow like never before." />
+            <meta name="description" content="Monetize your cooking talents with Chefiefy" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#0F172A" />
 
@@ -29,16 +29,16 @@ const Meta: React.FC<MetaProps> = ({ title }) => {
             <link rel="canonical" href={process.env.BASE_URL} />
             <meta name="robots" content="index, follow" />
 
-            <meta property="og:title" content="Tailwindgrabber" />
-            <meta property="og:description" content="An extension for effortless extraction of Tailwind elements." />
-            <meta property="og:image" content="https://www.tailwindgrabber.com/images/og-image.jpeg" />
-            <meta property="og:url" content="https://www.tailwindgrabber.com/" />
+            <meta property="og:title" content="Chefiefy" />
+            <meta property="og:description" content="Monetize your cooking talents with Chefiefy" />
+            <meta property="og:image" content="https://www.chefiefy.com/images/og-image.jpeg" />
+            <meta property="og:url" content="https://www.chefiefy.com/" />
             <meta property="og:type" content="website" />
 
-            <meta name="twitter:card" content="An extension for effortless extraction of Tailwind elements." />
-            <meta name="twitter:title" content="Tailwindgrabber" />
-            <meta name="twitter:description" content="Effortlessly extract and share Tailwind elements from existing websites, enhancing your design workflow like never before." />
-            <meta name="twitter:image" content="https://www.tailwindgrabber.com/images/og-image.jpeg" />
+            <meta name="twitter:card" content="" />
+            <meta name="twitter:title" content="Chefiefy" />
+            <meta name="twitter:description" content="Monetize your cooking talents with Chefiefy" />
+            <meta name="twitter:image" content="https://www.chefiefy.com/images/og-image.jpeg" />
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="author" content="Oufaska Agency" />
